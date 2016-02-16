@@ -1,0 +1,40 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: hideproc2 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/hideproc2.res" /d "_DEBUG" /d "_AFXDLL" "C:\Users\Tanjon Liu\Desktop\URP\安全实验教程相关资料\第6章\进程隐藏\hideproc2\hideproc2.rc"" 
+Creating temporary file "C:\Users\TANJON~1\AppData\Local\Temp\RSP5A8F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/hideproc2.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Tanjon Liu\Desktop\URP\安全实验教程相关资料\第6章\进程隐藏\hideproc2\hideproc2.cpp"
+"C:\Users\Tanjon Liu\Desktop\URP\安全实验教程相关资料\第6章\进程隐藏\hideproc2\hideproc2Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\TANJON~1\AppData\Local\Temp\RSP5A8F.tmp" 
+Creating temporary file "C:\Users\TANJON~1\AppData\Local\Temp\RSP5A90.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/hideproc2.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"C:\Users\Tanjon Liu\Desktop\URP\安全实验教程相关资料\第6章\进程隐藏\hideproc2\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\Users\TANJON~1\AppData\Local\Temp\RSP5A90.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/hideproc2.pdb" /debug /machine:I386 /out:"Debug/hideproc2.exe" /pdbtype:sept  ".\Debug\hideproc2.obj" ".\Debug\hideproc2Dlg.obj" ".\Debug\StdAfx.obj" ".\Debug\hideproc2.res" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+hideproc2.cpp
+hideproc2Dlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+hideproc2.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
